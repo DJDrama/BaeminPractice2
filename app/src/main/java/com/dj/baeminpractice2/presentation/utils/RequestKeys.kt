@@ -1,0 +1,4 @@
+package com.dj.baeminpractice2.presentation.utils
+
+const val REQUEST_KEY_PERMISSION_CHECK_READ_EXTERNAL_STORAGE =
+    "REQUEST_KEY_PERMISSION_CHECK_READ_EXTERNAL_STORAGE"

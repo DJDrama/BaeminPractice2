@@ -1,7 +1,8 @@
-package com.dj.baeminpractice2
+package com.dj.baeminpractice2.presentation
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.dj.baeminpractice2.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
