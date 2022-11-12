@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">BaeminPractice2</string>
+    <string name="app_name">배달의 민족</string>
+    <string name="cd_splash_logo">Baemin</string>
+    <string name="cd_brand_logo">Woowa Brothers</string>
+    <string name="text_check_permissions_title" >고객님의 편리한\n배달의민족 이용을 위해 아래\n접근권한의 허용이 필요합니다</string>
+    <string name="text_permission_storage_title">저장공간 (선택)</string>
+    <string name="text_permission_storage_description">사진리뷰 및 프로필 이미지 첨부</string>
+    <string name="text_permission_location_description">현재위치 자동수신</string>
+    <string name="text_permission_location_title">위치 (선택)</string>
+    <string name="text_permission_address_title">주소록 (선택)</string>
+    <string name="text_permission_address_description">전화주문 시 가게명 노출, 선물하기 시 연락처 목록 불러오기</string>
+    <string name="text_permission_camera_title">카메라 (선택)</string>
+    <string name="text_permission_camera_description">주문 시 QR코드 스캔</string>
+    <string name="text_permission_overall_description">위 접근권한은 고객님께 더 나은 서비스를 제공하기 위해 사용됩니다. 허용에 동의하지 않으셔도 배달의 민족을 이용하실 수 있습니다.</string>
+    <string name="text_confirm">확인</string>
+
 </resources>

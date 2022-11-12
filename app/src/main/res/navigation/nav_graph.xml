@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/introSplashFragment">
+
+    <fragment
+        android:id="@+id/introSplashFragment"
+        android:name="com.dj.baeminpractice2.presentation.ui.IntroSplashFragment"
+        android:label="IntroSplashFragment"
+        tools:layout="@layout/fragment_intro_splash" >
+        <action
+            android:id="@+id/action_introSplashFragment_to_checkPermissionsDialogFragment"
+            app:destination="@id/checkPermissionsDialogFragment"
+            app:launchSingleTop="true" />
+        <action
+            android:id="@+id/action_introSplashFragment_to_introTermAgreementFragment"
+            app:destination="@id/introTermAgreementFragment"
+            app:popUpTo="@id/nav_graph.xml"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <dialog
+        android:id="@+id/checkPermissionsDialogFragment"
+        android:name="com.dj.baeminpractice2.presentation.ui.CheckPermissionsDialogFragment"
+        android:label="CheckPermissionsDialogFragment"
+        tools:layout="@layout/dialog_fragment_check_permissions" />
+    <fragment
+        android:id="@+id/introTermAgreementFragment"
+        android:name="com.dj.baeminpractice2.presentation.ui.IntroTermAgreementFragment"
+        android:label="IntroTermAgreementFragment"
+        tools:layout="@layout/fragment_intro_term_agreement" />
+</navigation>
