@@ -1,4 +1,4 @@
-package com.dj.baeminpractice2.presentation.ui
+package com.dj.baeminpractice2.presentation.ui.intro
 
 import android.Manifest
 import android.content.pm.PackageManager

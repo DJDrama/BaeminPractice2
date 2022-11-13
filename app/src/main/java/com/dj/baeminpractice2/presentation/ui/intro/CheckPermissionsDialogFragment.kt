@@ -1,4 +1,4 @@
-package com.dj.baeminpractice2.presentation.ui
+package com.dj.baeminpractice2.presentation.ui.intro
 
 import android.Manifest
 import android.os.Bundle
@@ -15,7 +15,7 @@ import com.dj.baeminpractice2.presentation.utils.REQUEST_KEY_PERMISSION_CHECK_RE
 class CheckPermissionsDialogFragment : DialogFragment(R.layout.dialog_fragment_check_permissions) {
     private val neededPermission = Manifest.permission.READ_EXTERNAL_STORAGE
     private val requestPermissionLauncher =
-        registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted ->
+        registerForActivityResult(ActivityResultContracts.RequestPermission()) {
             setFragmentResultAndPopBackStack()
         }
 
