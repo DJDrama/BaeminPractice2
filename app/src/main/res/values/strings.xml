@@ -13,5 +13,16 @@
     <string name="text_permission_camera_description">주문 시 QR코드 스캔</string>
     <string name="text_permission_overall_description">위 접근권한은 고객님께 더 나은 서비스를 제공하기 위해 사용됩니다. 허용에 동의하지 않으셔도 배달의 민족을 이용하실 수 있습니다.</string>
     <string name="text_confirm">확인</string>
+    <string name="term_agreement_title">환영합니다!\n아래 약관에 동의하시면\n맛있는 여행이 시작됩니다</string>
+    <string name="text_agree_all">전체동의</string>
+    <string name="cd_hi">약관에 동의해주세요</string>
+    <string name="text_agree_location">위치 기반 서비스 약관 동의 (필수)</string>
+    <string name="text_agree_marketing_push">마케팅 정보 앱 푸시 알림 수신 동의 (선택)</string>
+    <string name="text_start">시작하기</string>
+    <string name="cd_service_term">위치 기반 서비스 약관 보기</string>
+    <string name="text_term">이용약관</string>
+    <string name="cd_back_button">뒤로가기</string>
+    <string name="text_baemin_term">배달의민족 이용약관</string>
+    <string name="text_location_term">위치기반서비스 이용약관</string>
 
 </resources>

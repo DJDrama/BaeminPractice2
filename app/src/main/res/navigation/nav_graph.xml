@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/introSplashFragment"
-        android:name="com.dj.baeminpractice2.presentation.ui.IntroSplashFragment"
+        android:name="com.dj.baeminpractice2.presentation.ui.intro.IntroSplashFragment"
         android:label="IntroSplashFragment"
-        tools:layout="@layout/fragment_intro_splash" >
+        tools:layout="@layout/fragment_intro_splash">
         <action
             android:id="@+id/action_introSplashFragment_to_checkPermissionsDialogFragment"
             app:destination="@id/checkPermissionsDialogFragment"
@@ -22,12 +22,22 @@
     </fragment>
     <dialog
         android:id="@+id/checkPermissionsDialogFragment"
-        android:name="com.dj.baeminpractice2.presentation.ui.CheckPermissionsDialogFragment"
+        android:name="com.dj.baeminpractice2.presentation.ui.intro.CheckPermissionsDialogFragment"
         android:label="CheckPermissionsDialogFragment"
         tools:layout="@layout/dialog_fragment_check_permissions" />
     <fragment
         android:id="@+id/introTermAgreementFragment"
-        android:name="com.dj.baeminpractice2.presentation.ui.IntroTermAgreementFragment"
+        android:name="com.dj.baeminpractice2.presentation.ui.intro.terms.IntroTermAgreementFragment"
         android:label="IntroTermAgreementFragment"
-        tools:layout="@layout/fragment_intro_term_agreement" />
+        tools:layout="@layout/fragment_intro_term_agreement">
+        <action
+            android:id="@+id/action_introTermAgreementFragment_to_termsFragment"
+            app:destination="@id/termsFragment"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/termsFragment"
+        android:name="com.dj.baeminpractice2.presentation.ui.intro.terms.TermsFragment"
+        android:label="TermsFragment"
+        tools:layout="@layout/fragment_terms" />
 </navigation>
