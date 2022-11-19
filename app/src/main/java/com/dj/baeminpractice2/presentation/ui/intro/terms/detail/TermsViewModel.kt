@@ -1,4 +1,4 @@
-package com.dj.baeminpractice2.presentation.ui.intro.terms
+package com.dj.baeminpractice2.presentation.ui.intro.terms.detail
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel

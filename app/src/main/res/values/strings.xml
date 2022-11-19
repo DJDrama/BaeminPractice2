@@ -24,5 +24,8 @@
     <string name="cd_back_button">뒤로가기</string>
     <string name="text_baemin_term">배달의민족 이용약관</string>
     <string name="text_location_term">위치기반서비스 이용약관</string>
+    <string name="text_location_term_with_spaces">위치기반 서비스 이용약관</string>
+    <string name="text_baemin_service_term_title">배달의민족 서비스 이용약관</string>
+    <string name="cd_choose_past_term">과거 약관 보기</string>
 
 </resources>
