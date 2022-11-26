@@ -8,6 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray_line">#EAEAEA</color>
+    <color name="dark_gray_line">#777777</color>
+    <color name="dark_gray">#777777</color>
     <color name="baemin_color">#2EC0C1</color>
-    <color name="dark_gray">#D4D4D4</color>
 </resources>

@@ -37,7 +37,16 @@
     </fragment>
     <fragment
         android:id="@+id/termsFragment"
-        android:name="com.dj.baeminpractice2.presentation.ui.intro.terms.TermsFragment"
+        android:name="com.dj.baeminpractice2.presentation.ui.intro.terms.detail.TermsFragment"
         android:label="TermsFragment"
-        tools:layout="@layout/fragment_terms" />
+        tools:layout="@layout/fragment_terms">
+        <action
+            android:id="@+id/action_termsFragment_to_termsListBottomSheetDialogFragment"
+            app:destination="@id/termsListBottomSheetDialogFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/termsListBottomSheetDialogFragment"
+        android:name="com.dj.baeminpractice2.presentation.ui.intro.terms.detail.TermsListBottomSheetDialogFragment"
+        android:label="TermsListBottomSheetDialogFragment"
+        tools:layout="@layout/bottom_sheet_dialog_fragment_terms_list" />
 </navigation>
